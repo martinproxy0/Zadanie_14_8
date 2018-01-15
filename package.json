@@ -1,0 +1,35 @@
+{
+    "name": "zadanie_14_8",
+    "version": "1.0.0",
+    "description": "14.8. PROJEKT: Wyszukiwarka gifów",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server",
+        "build": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/martinproxy0/Zadanie_14_8.git"
+    },
+    "keywords": [
+        "Wyszukiwarka",
+        "gif"
+    ],
+    "author": "Marcin Sornek",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/martinproxy0/Zadanie_14_8/issues"
+    },
+    "homepage": "https://github.com/martinproxy0/Zadanie_14_8#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "http-server": "^0.11.1",
+        "nodemon": "^1.14.11",
+        "webpack": "^3.10.0"
+    }
+}
